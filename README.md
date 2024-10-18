@@ -17,3 +17,7 @@ Before applying each algorithm, initialize the array to the original state (rand
 Also measure and report the (CPU) time each algorithm takes. You can see how to time code in this code.  For each run output a table of results showing the sort type, first 20 elements, the number of comparisons done, and the number of seconds taken.
 
 Create a loop that repeats this test process for arrays of size S where S =  i* 10,000 for i =1, 2, 4, 6, 8.
+
+I have included a function measureTime that you can call and pass a sort and data to, it will run the sort and time it.
+
+Create a list of sorting functions, and iterate over the list.  I have started it for you.
